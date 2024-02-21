@@ -12,6 +12,7 @@
 		338019512B47C1E700A0942D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338019502B47C1E700A0942D /* Assets.xcassets */; };
 		338019542B47C1E700A0942D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338019532B47C1E700A0942D /* Preview Assets.xcassets */; };
 		3380195B2B47C27400A0942D /* CustomHourPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3380195A2B47C27400A0942D /* CustomHourPicker.swift */; };
+		338CD3EE2B85C35A0075B9EC /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CD3ED2B85C35A0075B9EC /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		338019502B47C1E700A0942D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338019532B47C1E700A0942D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3380195A2B47C27400A0942D /* CustomHourPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHourPicker.swift; sourceTree = "<group>"; };
+		338CD3ED2B85C35A0075B9EC /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,8 @@
 		3380194B2B47C1E500A0942D /* CustomDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				338CD3EF2B85C38C0075B9EC /* Helpers */,
 				3380194C2B47C1E500A0942D /* CustomDatePickerApp.swift */,
-				3380195A2B47C27400A0942D /* CustomHourPicker.swift */,
 				3380194E2B47C1E500A0942D /* ContentView.swift */,
 				338019502B47C1E700A0942D /* Assets.xcassets */,
 				338019522B47C1E700A0942D /* Preview Content */,
@@ -68,6 +70,23 @@
 				338019532B47C1E700A0942D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		338CD3EF2B85C38C0075B9EC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				338CD3F02B85C3930075B9EC /* Components */,
+				338CD3ED2B85C35A0075B9EC /* DateFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		338CD3F02B85C3930075B9EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3380195A2B47C27400A0942D /* CustomHourPicker.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338CD3EE2B85C35A0075B9EC /* DateFormatter.swift in Sources */,
 				3380194F2B47C1E500A0942D /* ContentView.swift in Sources */,
 				3380194D2B47C1E500A0942D /* CustomDatePickerApp.swift in Sources */,
 				3380195B2B47C27400A0942D /* CustomHourPicker.swift in Sources */,
